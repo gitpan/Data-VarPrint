@@ -9,7 +9,7 @@ use vars qw(@ISA @EXPORT $VERSION);
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw(&VarPrint &VarPrintAsString);
 
-$VERSION = "1.00";  # $Date: 2002/02/24 3:18:35 $
+$VERSION = "1.01";  # $Date: 2002/08/15 2:08:15 $
 
 sub VarPrint {
   print _VarPrintAsString(@_, ""), "\n";
